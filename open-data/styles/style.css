@@ -1,0 +1,13 @@
+.slidev-layout {
+  &.intro {
+    & > div:first-child {
+      opacity: 0;
+      display: none;
+    }
+  }
+
+  .slidev-code code {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+}

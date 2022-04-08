@@ -12,6 +12,8 @@ title: Front-end Coders Mauritius Meetup April 2022
 <div class="text-6xl font-bold">Meetup April 2022</div>
 <div class="text-3xl">We will begin shortly..</div>
 <div class="text-3xl">Meanwhile pick your food category (veg/non-veg)</div>
+<div class="text-3xl">Add photos : https://photos.app.goo.gl/fhTfvGxh2aEqUmja8</div>
+<div class="text-3xl">Share this event on Twitter/LinkedIn with the hashtag #MauritiusFrontEndMeetup</div>
 
 </div>
 
