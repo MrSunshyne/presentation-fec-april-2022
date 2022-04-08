@@ -231,10 +231,86 @@ layout: center
 <https://github.com/MrSunshyne/mauritius-dataset-electricity/actions>
 
 ---
-layout: center
 ---
 
-# Let's make a front-end for it?
+# Let's make a front-end for it? Part 1: fetch data
+
+```ts
+const API_ENDPOINT = 'https://raw.githubusercontent.com/MrSunshyne/mauritius-dataset-electricity/main/data/power-outages.json'
+
+export async function fetchJson(url = API_ENDPOINT) {
+  try {
+    const response = await fetch(url)
+    return response.json()
+  } catch (error) {
+    console.log(error)
+    throw error
+  }
+}
+```
+
+---
+---
+
+# Part 2: Loop on the data and display them in the Cell Component
+
+```html
+<script>
+import data = fetchJson();
+</script>
+
+<div v-for="(outage) in data">
+      <Cell :data="outage" />
+</div>
+```
+
+---
+---
+
+# Part 3: Style the Cell Component
+
+
+```html
+<div>
+    <div>
+        <div >{{ locality }}</div>
+        <div>{{ timeUntil }}</div>
+        <div>{{ streets }}</div>
+    <div>
+        <div>
+            <div>Power {{ state === 'ongoing' ? 'will resume in' : state === 'upcoming' ? 'will cut in' : 'has resumed since' }}</div>
+            <vue-countdown
+                :time="timeDifference" 
+                v-slot="{ days, hours, minutes, seconds }"
+            >{{ days ? days + 'd,' : '' }} {{ hours ? hours + 'h' : '' }} {{ minutes }}m {{ seconds }}s</vue-countdown>
+            </div>
+            <div>
+            <RomanticCandle v-if="state === 'ongoing'"  />
+            <div v-else class="w-2 h-2 relative left-[4px] top-[4px] shine rounded-full bg-green-500">&nbsp;</div>
+            </div>
+      </div> 
+    </div>
+  </div>
+```
+
+```ts
+const state = computed(() => {
+  let on = 'upcoming'
+  const from = new Date(data.from)
+  const to = new Date(data.to)
+  const now = new Date()
+  if (now.getTime() > from.getTime()) {
+    on = 'ongoing'
+  }
+  if (now.getTime() > to.getTime()) {
+    on = 'past'
+  }
+  return on
+})
+
+```
+
+---
 
 <https://power-outages-mauritius.netlify.app/>
 
@@ -296,15 +372,20 @@ layout: center
 
 # Other Projects
 
-<https://mauritius-internet-prices.netlify.app/>
-<https://mauritius-fuel-prices.netlify.app/>
-<https://mrsunshyne.github.io/mauritius-sea-cable/>
+<https://github.com/MrSunshyne/mauritius-dataset-meteo>
+
+<https://mauritius-internet-prices.netlify.app>
+
+<https://mauritius-fuel-prices.netlify.app>
+
+<https://mrsunshyne.github.io/mauritius-sea-cable>
+
 
 
 ---
 layout: center
 ---
 
-# You can do it as well !
+# You can do it as well ! 
 
 ---
