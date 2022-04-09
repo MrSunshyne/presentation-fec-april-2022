@@ -11,7 +11,7 @@ title: Front-end Coders Mauritius Meetup April 2022
 <div class="text-6xl">Front-end Coders Mauritius</div>
 <div class="text-6xl font-bold">Meetup April 2022</div>
 <div class="text-3xl">We will begin shortly..</div>
-<div class="text-3xl">Meanwhile pick your food category (veg/non-veg)</div>
+<!-- <div class="text-3xl">Meanwhile pick your food category (veg/non-veg)</div> -->
 <div class="text-3xl">Add photos : https://photos.app.goo.gl/fhTfvGxh2aEqUmja8</div>
 <div class="text-3xl">Share this event on Twitter/LinkedIn with the hashtag #MauritiusFrontEndMeetup</div>
 
@@ -27,12 +27,6 @@ image: '/who.png'
     <div class="text-3xl block pb-3" >Developers passionate about front-end.</div> 
 </div>
 
----
-layout: center-image
-image: /lunch.png
----
-
-Lunch Sponsor
 
 ---
 layout: center-image
@@ -74,7 +68,7 @@ layout: center
 
 #
 
-# **Topic : REACT**
+# **Topic : REACT JS**
 
 #
 
@@ -86,7 +80,11 @@ layout: center-image
 image: '/discord.png' 
 ---
 
-## Join our Discord ! <https://discord.gg/9sBPUVAC>
+  <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pb-10 pt-2 text-6xl font-bold">
+        Join our Discord !  <br/>
+        https://discord.gg/9sBPUVAC
+  </div>  
+
 
 ---
 layout: image-left
@@ -148,6 +146,14 @@ left: false
      - Topic: ReactivityEverywhere.js
   </div>
 </div>
+
+---
+layout: center-image
+image: /lunch.png
+---
+
+Lunch Sponsor
+
 
 ---
 layout: image-left

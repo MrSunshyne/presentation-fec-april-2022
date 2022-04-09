@@ -84,13 +84,13 @@ layout: center
        Ok but how much do these cost?
   </div>  
   <div>
-      - Hosting  FREE - Netlify / Vercel /
+      - Hosting  FREE - Netlify / Vercel / GitHub
   </div>
   <div>
-      - Compute  FREE - Github Actions
+      - Compute  FREE - GitHub Actions
   </div>
   <div>
-      - (subdomain)Domain FREE - Netlify
+      - (sub)Domain FREE - Netlify
   </div>
     <div>
       - CI/CD FREE - GH + Netlify
@@ -256,7 +256,7 @@ export async function fetchJson(url = API_ENDPOINT) {
 
 ```html
 <script>
-import data = fetchJson();
+const data = await fetchJson();
 </script>
 
 <div v-for="(outage) in data">
