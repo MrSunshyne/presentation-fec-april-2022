@@ -3,15 +3,15 @@ theme: light-icons
 layout: center
 titleTemplate: '%s - Sandeep Ramgolam'
 # canvasWidth: 1920
-title: Front-end Coders Mauritius Meetup April 2022
+title: Front-end Coders Mauritius Meetup June 2022
 ---
 <div class="space-y-10">
 
 <div class="text-2xl">Front-end Coders Mauritius</div>
-<div class="text-6xl font-bold text-red-500">Meetup May 2022</div>
+<div class="text-6xl font-bold text-red-500">Meetup June 2022</div>
 <div class="text-3xl text-gray-500">We will begin shortly..</div>
 <!-- <div class="text-3xl">Meanwhile pick your food category (veg/non-veg)</div> -->
-<div class="text-xl">Add photos : https://bit.ly/3lMHR9r</div>
+<div class="text-xl">Add photos : https://bit.ly/3nxXbaR</div>
 <div class="text-xl">Share this event on Twitter/LinkedIn with the hashtag #MauritiusFrontEndMeetup</div>
 
 </div>
@@ -30,32 +30,31 @@ image: '/who.png'
 layout: center
 ---
 
-# Thanks to <span style="background:red;font-weight: bold;padding: 0 4px; display:inline-block;margin: 0 2px;">Le Wagon </span> for sponsoring today's meetup
-
----
-layout: center-image
-image: '/meetup.png'
----
-<div class="space-y-4 mb-4">
-    <div class="text-5xl text-primary dark:text-primary">Update 1: Our meetup.com page is no more
-</div>
-    <div class="text-3xl block pb-3" >TLDR; Costs too much.</div>
-</div>
+# Thanks to <span style="background:red;color:white;font-weight: bold;padding: 0 4px; display:inline-block;margin: 0 2px;">Outremer telecom</span> for sponsoring today's meetup
 
 ---
 ---
-## Update 2:  We have a new website
 
-<https://front-end-coders-mauritius.netlify.app/>
-<iframe class="border rounded-md w-full h-screen" src="https://front-end-coders-mauritius.netlify.app/"></iframe>
+## Update 1:  Our meetup.com page is no more
+
+TLDR; Costs too much
+
+---
+---
+## Update 2:  We have a domain name!
+
+<https://frontend.mu/>
+<iframe class="border rounded-md w-full h-screen" src="https://frontend.mu/"></iframe>
 
 ---
 layout: center
 ---
-# Organise meetups regulary
-## Next Meetup in June
+#### GOAL: Organise meetups regulary
+#
+## Next Meetup in July
+#
 
-# **Topic : UX or Laravel**
+# **Topic : Laravel or FE Testing**
 
 #
 
@@ -65,95 +64,73 @@ layout: center
 layout: center-image
 image: '/discord.png'
 ---
-  <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pb-10 pt-2 text-6xl font-bold">
-        Join our Discord !  <br/>
-        https://discord.gg/9sBPUVAC
-  </div>  
-
+  
+# Join our Discord !
+https://discord.gg/9sBPUVAC
 ---
 layout: image-left
-image: ./zeeshan.jpg
+image: ./kushul.png
 left: true
 ---
-<div class="space-y-10 text-3xl text-primary dark:text-primary">
+<div class="space-y-10 text-2xl text-primary dark:text-primary">
   <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 text-6xl font-bold">
-        Zeeshan Maudar
+        Kushul Soomaree
   </div>  
   <div >
-      - Front-end Developer
+      Front-end Developer @ Prodigious
   </div>
   <div>
-      - Speaker - Memoizeeshan in React
+      Speaker: UI / UX & Web Accssibility
   </div>
 </div>
 
 ---
 layout: image-left
-image: ./zeeshan.jpg
+image: ./patrick.png
 left: true
 ---
-<div class="space-y-10 text-3xl text-primary dark:text-primary">
+<div class="space-y-10 text-2xl text-primary dark:text-primary">
   <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 text-6xl font-bold">
-        Zeeshan Maudar
+       Patrick Latour
   </div>  
   <div >
-      - Front-end Developer
+      Software Developer
   </div>
   <div>
-      - Speaker - Memoisation in React
+      Topic: Create Engaging User Experiences with WebGL
   </div>
 </div>
 
 ---
 layout: image-left
-image: './ish.jpg'
+image: './kherin.png'
 left: false
 ---
-<div class="space-y-10 text-3xl text-primary dark:text-primary">
+<div class="space-y-10 text-2xl text-primary dark:text-primary">
   <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 text-6xl font-bold">
-        Ish Sookun
+    Kherin Bundhoo
   </div>  
   <div >
-      - Sysadmin @ LSL Digital
+      Senior Software Engineer at MCB Group
   </div>
   <div >
-      - Speaker - Hosting SPAs
+      Speaker - Designing micro interaction on the web
   </div>
 </div>
 
 ---
 layout: image-left
-image: './saamiyah.jpg'
+image: './sandeep.png'
 left: false
 ---
-<div class="space-y-10 text-3xl text-primary dark:text-primary">
+<div class="space-y-10 text-2xl text-primary dark:text-primary">
   <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 text-6xl font-bold">
-       Saamiyah Peerun
+       Sandeep Ramgolam
   </div>  
   <div >
-      - React Developer @ Team Engine
+      Senior Front-end Dev @ Ringier SA
   </div>
   <div >
-      - Speaker - Keys in React
-  </div>
-</div>
-
----
-layout: image-left
-image: ./sandeep.png
-left: false
----
-<div class="space-y-10 text-xl text-primary dark:text-primary">
-  <div class="text-black dark:text-white text-opacity-60 dark:text-opacity-60 pt-2 text-6xl font-bold">
-        Sandeep Ramgolam
-  </div>  
-  <div >
-      - Senior Front-end Developer @ Ringier South Africa
-  </div>
-  <div >
-      - Host  & Speaker
-  </div>
-  <div >
-     - Topic: Vite JS - Modern front-end tooling
+      Topic: Infinite Themes with CSS Variables
   </div>
 </div>
